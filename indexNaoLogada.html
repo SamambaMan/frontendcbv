@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +8,19 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="icon" href="img/favicon.ico">
+<link rel="icon" href="static/cbv/img/favicon.ico">
 <title>CBV - Confederação Brasileira de Voleibol</title>
 
 <!-- Bootstrap core CSS -->
 <!--link href="dist/css/bootstrap.min.css" rel="stylesheet"-->
-<link href="dist/css/bootstrap.css" rel="stylesheet">
+<link href="static/cbv/dist/css/bootstrap.css" rel="stylesheet">
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<link href="static/cbv/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
 <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-<script src="assets/js/ie-emulation-modes-warning.js"></script>
+<script src="static/cbv/assets/js/ie-emulation-modes-warning.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -28,8 +29,12 @@
     <![endif]-->
 
 <!-- Custom styles for this template -->
-<link href="dist/css/carousel.css" rel="stylesheet">
-<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<link href="static/cbv/dist/css/carousel.css" rel="stylesheet">
+
+<link href="static/cbv/css/css.css" rel="stylesheet">
+
+<script src="static/cbv/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="static/cbv/js/mascaras.js" type="text/javascript"></script>
 <script language="javascript">
 jQuery(function($){
   $('.tabs-menu ul li a').click(function(){
@@ -55,37 +60,37 @@ jQuery(function($){
 ================================================== -->
 <body>
 <div id="corpoSite"> 
-  
   <!--início topo site-->
   <div id="topo"></div>
-  <div id="menuSite">
     <div class="navbar-wrapper">
       <nav class="navbar-right navbar-inverse">
         <table width="100%">
           <tr>
-            <td><div class="alinhaRedeSociais"> 
+            <td>
+            	<div class="alinhaRedeSociais"> 
                 <!--  botão no menu  -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                  <ul class="menuRedeSociais navbar-nav">
-                    <li>
-                      <table>
-                        <tr>
-                          <td><a href="https://pt-br.facebook.com/confederacaobrasileiradevoleibol/" target="_blank"><img src="img/facebook.png" alt="Facebook" border=""></a></td>
-                          <td><a href="https://twitter.com/volei?lang=pt" target="_blank"><img src="img/twitter.png" alt="Twitter" border=""></a></td>
-                          <td><a href="https://www.instagram.com/cbvolei/" target="_blank"><img src="img/instagram.png" alt="Instagram" border=""></a></td>
-                          <td><a href="https://www.youtube.com/user/VoleiBrasil1" target="_blank"><img src="img/youtube.png" alt="YouTube" border=""></a></td>
-                        </tr>
-                      </table>
-                    </li>
-                  </ul>
-                </div>
-              </div></td>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                      <ul class="menuRedeSociais navbar-nav">
+                        <li>
+                          <table>
+                            <tr>
+                              <td><a href="https://pt-br.facebook.com/confederacaobrasileiradevoleibol/" target="_blank"><img src="static/cbv/img/facebook.png" alt="Facebook" border=""></a></td>
+                              <td><a href="https://twitter.com/volei?lang=pt" target="_blank"><img src="static/cbv/img/twitter.png" alt="Twitter" border=""></a></td>
+                              <td><a href="https://www.instagram.com/cbvolei/" target="_blank"><img src="static/cbv/img/instagram.png" alt="Instagram" border=""></a></td>
+                              <td><a href="https://www.youtube.com/user/VoleiBrasil1" target="_blank"><img src="static/cbv/img/youtube.png" alt="YouTube" border=""></a></td>
+                            </tr>
+                          </table>
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+            </td>
           </tr>
           <tr>
             <td><div id="navbar" class="navbar-collapse collapse">
                 <ul class="menu nav navbar-nav">
-                  <li style="margin:-5px 0;"><a href="index.html"><img src="img/btHome.png" alt="" border=""></a></li>
+                  <li style="margin:-5px 0;"><a href="index.html"><img src="static/cbv/img/btHome.png" alt="" border=""></a></li>
                   <li><a href="programa.html">O PROGRAMA</a></li>
                   <li><a href="contExclusivo.html">CONTEÚDO EXCLUSIVO</a></li>
                   <li><a href="experiencia.html">EXPERIÊNCIA</a></li>
@@ -96,17 +101,15 @@ jQuery(function($){
               </div></td>
           </tr>
         </table>
-      </nav>
+        </nav>
     </div>
-  </div>
   <!--fim topo site-->
   
   <div class="conteudoSite">
-    <div class="row">
+   <!-- <div class="row">-->
       <div class="span9">
-        <div class="row">
+        <div class="row" style="width:100%;">
           <div class="span6"> 
-            
             <!-- início Carrossel   ================================================== -->
             <div id="myCarouselNaoLogada" class="carousel slide" data-ride="carousel"> 
               <!-- Indicators -->
@@ -116,7 +119,7 @@ jQuery(function($){
                 <li data-target="#myCarouselNaoLogada" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner" role="listbox">
-                <div class="item active"> <img class="first-slide" src="img/banner/banner1.png" alt="First slide">
+                <div class="item active"> <img class="first-slide" src="static/cbv/img/banner/banner1.png" alt="First slide">
                   <div class="container">
                     <div class="carousel-caption">
                       <h1>Example headline.</h1>
@@ -125,7 +128,7 @@ jQuery(function($){
                     </div>
                   </div>
                 </div>
-                <div class="item"> <img class="second-slide" src="img/banner/banner2.png" alt="Second slide">
+                <div class="item"> <img class="second-slide" src="static/cbv/img/banner/banner2.png" alt="Second slide">
                   <div class="container">
                     <div class="carousel-caption">
                       <h1>Another example headline.</h1>
@@ -134,7 +137,7 @@ jQuery(function($){
                     </div>
                   </div>
                 </div>
-                <div class="item"> <img class="third-slide" src="img/banner/banner3.png" alt="Third slide">
+                <div class="item"> <img class="third-slide" src="static/cbv/img/banner/banner3.png" alt="Third slide">
                   <div class="container">
                     <div class="carousel-caption">
                       <h1>One more for good measure.</h1>
@@ -152,7 +155,14 @@ jQuery(function($){
           	<!--form cadastro-->
             <div class="register-box">
               <form name="cadastro" method="post" action="#" onsubmit="" style="width:100%;">
-                <div class="caixa"> <span class="register-box-title">JÁ SOU CADASTRADO</span>
+                <div class="caixa">
+                  <span class="register-box-title">JÁ SOU CADASTRADO</span>
+                  <!--div para mensagens do Samambaia
+                  <div class="erroList">
+                  	<ul>
+                    	<li>LISTA DE ERROS</li>
+                    </ul>
+                  </div-->
                   <div align="left">
                     <input class="box1" type="email" name="email" placeholder="E-mail" required="" >
                   </div>
@@ -173,20 +183,40 @@ jQuery(function($){
                   <div style="background-image: linear-gradient(to right, #1b416c, white, #1b416c); height:2px"></div>
                   <br>
                   <span class="register-box-title">AINDA NÃO SOU CADASTRADO</span><br>
-                  <span class="register-box-txt">Tenha acesso a todos os benefícios e<br>
-                  conteúdos exclusivos</span>
-                  <div style="height:10px;"></div>
+                  <span class="register-box-txt">Tenha acesso a todos os benefícios e<br>conteúdos exclusivos</span>
+                  
+                  <!--div para mensagens do Samambaia-->
+                  <div class="erroList">
+                  	<ul>
+                    	<li>LISTA DE ERROS</li>
+                    </ul>
+                  </div>
+				 <!-- <div style="height:10px;"></div>-->
                   <div align="left">
-                    <input class="box1" type="text" name="nome" style="width:283px;" placeholder="Nome" required="">
+                    <input class="box1" type="text" name="nome" placeholder="Nome" required="">
                   </div>
+                  <!--div para mensagens do Samambaia-->
+                  <div class="erroList">
+                  	<ul>
+                    	<li>LISTA DE ERROS</li>
+                    </ul>
+                  </div>
+                  
                   <div align="left">
-                    <input class="box1" type="email" name="email" style="width:283px;" placeholder="E-mail" required="">
+                    <input class="box1" type="email" name="email" placeholder="E-mail" required="">
                   </div>
-                  <div>
-                    <input class="box2" type="text" name="cpf_passaporte" style="float:left;" placeholder="CPF | Passaporte" required="">
+                  <!--div para mensagens do Samambaia-->
+                  <div class="erroList">
+                  	<ul>
+                    	<li>LISTA DE ERROS</li>
+                    </ul>
                   </div>
-                  <div align="right">
-                    <select class="box2" style="float:right; height:28px; margin:1px 3px 0 0;" name="estado" required="">
+                  
+                  <div class="CPFPassaporte">
+                    <input onKeyDown="Mascara(this,Cpf);" onKeyPress="Mascara(this,Cpf);" onKeyUp="Mascara(this,Cpf);" class="box2" type="text" id="cpf" maxlength="14" name="cpf_passaporte" placeholder="CPF | Passaporte" required="">
+                 <!-- </div>
+                  <div class="estado" align="right">-->
+                    <select class="box2" name="estado" required="">
                       <option value="estado">Selecione uma UF</option>
                       <option value="ac">Acre</option>
                       <option value="al">Alagoas</option>
@@ -217,41 +247,59 @@ jQuery(function($){
                       <option value="to">Tocantins</option>
                     </select>
                   </div>
-                  <div><input class="box2" type="text" name="senha" style="float:left; margin:34px 0 0 -141px; height:29px;" placeholder="Senha" required=""></div>
-                  <div><input class="box2" type="text" name="confirmaSenha" style="float:right; margin:5px 3px 0 0; height:29px;" placeholder="Confirma senha" required=""></div>
-                  <div><button type="submit" class="botaoCadastrar">CADASTRAR</button></div>
-                  <div><button type="submit" class="botaoFace">Cadastrar com Facebook</button></div>
+                  <!--div para mensagens do Samambaia-->
+                  <div class="erroList">
+                  	<ul>
+                    	<li>LISTA DE ERROS</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                  	<input class="box2" type="text" name="senha" placeholder="Senha" required="">
+                 <!-- </div>
+                  <div class="confirmaSenha">-->
+                  	<input class="box2" type="text" name="confirmaSenha" placeholder="Confirma senha" required="">
+                  <!--</div>
+                  <div>-->
+                  <!--div para mensagens do Samambaia-->
+                    <div class="erroList">
+                  	  <ul>
+                      	<li>LISTA DE ERROS</li>
+                      </ul>
+                    </div>
+                  	<button type="submit" class="botaoCadastrar">CADASTRAR</button>
+                  </div>
                 </div>
               </form>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    <!--</div>-->
     <div style="height:100px;"></div>
     <div class="container marketing"> 
       <!-- inicio colunas abaixo do carrossel -->
       <div><span class="tituloBold">BENEFÍCIOS</span></div>
       <div class="row"> 
         <!--beneficio 1-->
-        <div class="col-lg-4"> <img class="img-circle" src="img/imgBeneficioEmail.png" alt="" border="0">
+        <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/imgBeneficioEmail.png" alt="" border="0">
           <p>Receba conteúdo por e-mail</p>
         </div>
         
         <!--beneficio 2-->
-        <div class="col-lg-4"> <img class="img-circle" src="img/imgBeneficioDesconto.png" alt="" border="0">
+        <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/imgBeneficioDesconto.png" alt="" border="0">
           <p>Ganhe descontos em ingressos <br>
             em eventuais torneios</p>
         </div>
         
         <!--beneficio 3-->
-        <div class="col-lg-4"> <img class="img-circle" src="img/imgBeneficioExperiencias.png" alt="" border="0">
+        <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/imgBeneficioExperiencias.png" alt="" border="0">
           <p>Participe de ações e <br>
             experiências exclusivas</p>
         </div>
         
         <!--beneficio 4-->
-        <div class="col-lg-4"> <img class="img-circle" src="img/imgBeneficioTorcida.png" alt="" border="0"> 
+        <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/imgBeneficioTorcida.png" alt="" border="0"> 
           <!--h2>Faça parte da torcida oficial <br> do Vôlei Brasil</h2-->
           <p>Faça parte da torcida oficial <br>
             do Vôlei Brasil</p>
@@ -283,17 +331,17 @@ jQuery(function($){
           <div class="tab1 tabs first-tab">
             <div class="row"> 
               <!--modalidade 1-->
-              <div class="col-lg-4"> <img class="img-circle" src="img/bolaQuadra.png" alt="" border="0">
+              <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/bolaQuadra.png" alt="" border="0">
                 <p>Quadra<br>
                   57%</p>
               </div>
               <!--modalidade 2-->
-              <div class="col-lg-4"> <img class="img-circle" src="img/bolaPraia.png" alt="" border="0">
+              <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/bolaPraia.png" alt="" border="0">
                 <p>Praia<br>
                   13%</p>
               </div>
               <!--modalidade 3-->
-              <div class="col-lg-4"> <img class="img-circle" src="img/bolaAmbos.png" alt="" border="0">
+              <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/bolaAmbos.png" alt="" border="0">
                 <p>Ambos<br>
                   20%</p>
               </div>
@@ -302,9 +350,9 @@ jQuery(function($){
           <!-- .tab2 -->
           <div class="tab2 tabs">
             <div id="row">
-              <div id="torcidometroLeft"><img src="img/torcidometro1.jpg" alt="" border=""></div>
-              <div id="torcidometroCenter"><img src="img/imgTorcidometro.jpg" alt="" border=""></div>
-              <div id="torcidometroRight"><img src="img/torcidometro2.jpg" alt="" border=""></div>
+              <div id="torcidometroLeft"><img src="static/cbv/img/torcidometro1.jpg" alt="" border=""></div>
+              <div id="torcidometroCenter"><img src="static/cbv/img/imgTorcidometro.jpg" alt="" border=""></div>
+              <div id="torcidometroRight"><img src="static/cbv/img/torcidometro2.jpg" alt="" border=""></div>
             </div>
           </div>
         </div>
@@ -314,18 +362,18 @@ jQuery(function($){
     </div>
   </div>
   <!-- início footer -->
-  <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="img/rodape.png" style="max-width:100%" alt="" border=""/></a></div>
+  <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="static/cbv/img/rodape.png" style="max-width:100%" alt="" border=""/></a></div>
 </div>
 
 <!-- Bootstrap core JavaScript
         ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script> 
-<script src="dist/js/bootstrap.min.js"></script> 
+<script>window.jQuery || document.write('<script src="static/cbv/assets/js/vendor/jquery.min.js"><\/script>')</script> 
+<script src="static/cbv/dist/js/bootstrap.min.js"></script> 
 <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
-<script src="assets/js/vendor/holder.min.js"></script> 
+<script src="static/cbv/assets/js/vendor/holder.min.js"></script> 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
-<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="static/cbv/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
