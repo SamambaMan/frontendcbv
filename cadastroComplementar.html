@@ -120,22 +120,41 @@ jQuery(function($){
           <div class="container">
               <div class="row">
 				<form >              
-                  <div class="col-lg-6">
+                  <div class="col-lg-5 bordaBox" style="border-right:none;">
+                  	  <span class="tituloLight">Cadastro Básico</span>
                       <div class="form-group alinhaCamposLeft">
                         <label for="cpf">CPF | Passaporte:<span class="required">*</span></label>
-                        <input type="text" class="form-control" id="cpf" readonly>
+                        <input type="text" class="form-control" id="cpf" maxlength="14" onKeyDown="Mascara(this,Cpf);" onKeyPress="Mascara(this,Cpf);" onKeyUp="Mascara(this,Cpf);">
+                      </div>
+                       <div class="form-group alinhaCamposLeft">
+                        <label for="nome">Nome:<span class="required">*</span></label>
+                        <input type="text" class="form-control" name="nome" required>
                       </div>
                       <div class="form-group alinhaCamposLeft">
                         <label for="dataNascimento">Data de nascimento:<span class="required">*</span></label>
-                        <input type="text" class="form-control" name="dataNascimento" required>
+                        <input type="text" class="form-control" name="dataNascimento" required maxlength="10" onKeyDown="Mascara(this,Data);" onKeyPress="Mascara(this,Data);" onKeyUp="Mascara(this,Data);">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="sexo">Sexo:<span class="required">*</span></label>
+                        <select class="box3" name="sexo" required>
+	                      <option value="m">Masculino</option>
+    	                  <option value="f">Feminino</option>
+        	            </select>
                       </div>
                       <div class="form-group alinhaCamposLeft">
                         <label for="celular">Celular:</label>
-                        <input type="text" class="form-control" name="celular">
+                        <input type="text" class="form-control" name="celular" maxlength="15" onKeyDown="Mascara(this,Celular);" onKeyPress="Mascara(this,Celular);" onKeyUp="Mascara(this,Celular);">
                       </div>
-                      <div class="form-group alinhaCamposLeft">
+                       <div class="form-group alinhaCamposLeft">
+                        <label for="idade">Telefone</label>
+                        <input type="text" class="form-control" name="idade" maxlength="14" onKeyDown="Mascara(this,Telefone);" onKeyPress="Mascara(this,Telefone);" onKeyUp="Mascara(this,Telefone);">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 bordaBox">
+                  	  <span class="tituloLight">Endereço</span>
+                       <div class="form-group alinhaCamposLeft">
                         <label for="cep">CEP:</label>
-                        <input type="text" class="form-control" name="cep">
+                        <input type="text" class="form-control" name="cep" maxlength="9" onKeyDown="Mascara(this,Cep);" onKeyPress="Mascara(this,Cep);" onKeyUp="Mascara(this,Cep);">
                       </div>
                       <div class="form-group alinhaCamposLeft">
                         <label for="endereco">Endereço:</label>
@@ -146,14 +165,29 @@ jQuery(function($){
                         <input type="text" class="form-control" name="numero">
                       </div>
                       <div class="form-group alinhaCamposLeft">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" class="form-control" name="complemento">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
                         <label for="bairro">Bairro:</label>
                         <input type="text" class="form-control" name="bairro">
+                      </div>
+                       <div class="form-group alinhaCamposLeft">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" class="form-control" name="cidade">
                       </div>
                       <div class="form-group alinhaCamposLeft">
                         <label for="estado">Estado:</label>
                         <input type="text" class="form-control" name="estado">
                       </div>
                       <div class="form-group alinhaCamposLeft">
+                        <label for="pais">País</label>
+                        <input type="text" class="form-control" name="pais">
+                      </div>
+                    </div>
+                  <div class="col-lg-4 bordaBox" style="border-left:none;">
+                  	  <span class="tituloLight">Times</span>
+                  	  <div class="form-group alinhaCamposLeft">
                         <label for="modalidade">Qual modalidade do Voleibol você prefere?<span class="required">*</span></label>
                          <select class="box3" name="modalidade" required>
 	                      <option value=""></option>
@@ -180,35 +214,6 @@ jQuery(function($){
 	                      <option value=""></option>
     	                  <option value=""></option>
         	            </select>
-                      </div>                                            
-                  </div>
-                  <div class="col-lg-6">
-                      <div class="form-group alinhaCamposLeft">
-                        <label for="nome">Nome:<span class="required">*</span></label>
-                        <input type="text" class="form-control" name="nome" required>
-                      </div>
-                      <div class="form-group alinhaCamposLeft">
-                        <label for="sexo">Sexo:<span class="required">*</span></label>
-                        <select class="box3" name="sexo" required>
-	                      <option value="m">Masculino</option>
-    	                  <option value="f">Feminino</option>
-        	            </select>
-                      </div>
-                      <div class="form-group alinhaCamposLeft">
-                        <label for="idade">Idade</label>
-                        <input type="text" class="form-control" name="idade">
-                      </div>
-                      <div class="form-group alinhaCamposLeft">
-                        <label for="complemento">Complemento</label>
-                        <input type="text" class="form-control" name="complemento">
-                      </div>
-                      <div class="form-group alinhaCamposLeft">
-                        <label for="cidade">Cidade</label>
-                        <input type="text" class="form-control" name="cidade">
-                      </div>
-                      <div class="form-group alinhaCamposLeft">
-                        <label for="pais">País</label>
-                        <input type="text" class="form-control" name="pais">
                       </div>
                       <div class="form-group alinhaCamposLeft">
                         <label for="clubeMasculino">Qual clube masculino você torce?<span class="required">*</span></label>
