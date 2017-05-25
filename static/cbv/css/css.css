@@ -302,13 +302,13 @@ a:focus {
 		font-family: Nexa Light;
 		letter-spacing:1px;
 	}
-.erroList{
+.errorList{
 	font-family: Nexa Light;
 	letter-spacing:1px;
 	color:#FFF;
 	background-color:#0D2035;
 }
-.erroList ul{
+.errorList ul{
 	list-style:inside;
 }
 /*importacao fontes*/
