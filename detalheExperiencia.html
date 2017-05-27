@@ -120,7 +120,7 @@ jQuery(function($){
               <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-xs-12 col-lg-12">
-		          <div class="tituloBoldSaibaMais">TÍTULO SAIBA MAIS</div>
+		          <div class="tituloBoldSaibaMais">TÍTULO EXPERIENCIA</div>
                 </div>
                 <div class="col-xs-12 col-lg-12">
         		  <div class="tituloLightSaibaMais">Subtítulo</div>
@@ -175,15 +175,100 @@ Em artes gráficas, o texto é a parte verbal, linguística, por oposição às 
 Todo texto tem que ter alguns aspectos formais, ou seja, tem que ter estrutura, elementos que estabelecem relação entre si. Dentro dos aspectos formais temos a coesão e a coerência, que dão sentido e forma ao texto. "A coesão textual é a relação, a ligação, a conexão entre as palavras, expressões ou frases do texto"[4]. A coerência está relacionada com a compreensão, a interpretação do que se diz ou escreve. Um texto precisa ter sentido, isto é, precisa ter coerência. Embora a coesão não seja condição suficiente para que enunciados se constituam em textos, são os elementos coesivos que lhes dão maior legibilidade e evidenciam as relações entre seus diversos componentes, a coerência depende da coesão.
                   </p>
                 </div>
-                <div class="col-xs-12 col-lg-3">
-                  <div class="alinhaCamposLeft">
-                    <a href="javascript:window.history.go(-1)"><img src="static/cbv/img/btVoltar.png" alt="" border=""></a>
-                  </div>
+                <div class="col-xs-12 col-lg-12 space">
+                  <!-- the modal button -->
+				  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">PARTICIPAR</button>
+                </div>
+                <div class="col-xs-12 col-lg-10 alinhaCamposLeft">
+                  <a href="javascript:window.history.go(-1)"><img src="static/cbv/img/btVoltar.png" alt="" border=""></a>
                 </div>
               </div>
             </div>
           
           <div class="space"></div>
+          
+          
+        <!-- Modal COMPLETAR CADASTRO-->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <!--<h4 class="modal-title">Modal Header</h4>-->
+              </div>
+              <div class="modal-body">
+                <div class="tituloBold">COMPLETE SEU CADASTRO</div>
+                <div class="container">
+              <div class="row">
+				<form >              
+                    <div class="col-lg-6">
+                  	  <span class="tituloLight">Endereço</span>
+                       <div class="form-group alinhaCamposLeft">
+                        <label for="cep">CEP:</label>
+                        <input type="text" class="form-control" name="cep" maxlength="9" onKeyDown="Mascara(this,Cep);" onKeyPress="Mascara(this,Cep);" onKeyUp="Mascara(this,Cep);">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" class="form-control" name="endereco">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="numero">Número:</label>
+                        <input type="text" class="form-control" name="numero">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" class="form-control" name="complemento">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" class="form-control" name="bairro">
+                      </div>
+                       <div class="form-group alinhaCamposLeft">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" class="form-control" name="cidade">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="estado">Estado:</label>
+                        <input type="text" class="form-control" name="estado">
+                      </div>
+                      <div class="form-group alinhaCamposLeft">
+                        <label for="pais">País</label>
+                        <input type="text" class="form-control" name="pais">
+                      </div>
+                    </div>
+				</form>
+              </div>
+          </div>
+          </div>
+              <div class="modal-footer alinhaCamposLeft">
+                <!-- the modal button -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModalSucesso">ENVIAR</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        
+        <!-- Modal CADASTRADO COM SUCESSO-->
+        <div id="myModalSucesso" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <!--<h4 class="modal-title">Modal Header</h4>-->
+              </div>
+              <div class="modal-body">
+                <p class="tituloLight">ENDEREÇO CADASTRADO COM SUCESSO!</p>
+                <p class="tituloLight">Participe das nossas experiências.</p>                
+              </div>
+            </div>
+        
+          </div>
+        </div>
           
  		<!-- início footer -->
 	    <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="static/cbv/img/rodape.png" class="imgFooter" alt="" border=""/></a></div>

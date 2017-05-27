@@ -56,11 +56,9 @@ jQuery(function($){
 <!-- NAVBAR
 ================================================== -->
 <body>
-<div id="corpoSite">
-
-<!--início topo site-->
-<div id="topo"></div>
-<div id="menuSite">
+<div id="corpoSite"> 
+  <!--início topo site-->
+  <div id="topo"></div>
   <div class="navbar-wrapper">
     <nav class="navbar-right navbar-inverse">
       <table width="100%">
@@ -72,10 +70,7 @@ jQuery(function($){
                 <ul class="menuRedeSociais navbar-nav">
                   <li>
                     <table>
-                      <tr> 
-                        <!--td><a href="#">NOME DO USUÁRIO</a></td>
-                                                    <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</td>
-                                                    <td><a href="#">SAIR</a></td-->
+                      <tr>
                         <td><a href="https://pt-br.facebook.com/confederacaobrasileiradevoleibol/" target="_blank"><img src="static/cbv/img/facebook.png" alt="Facebook" border=""></a></td>
                         <td><a href="https://twitter.com/volei?lang=pt" target="_blank"><img src="static/cbv/img/twitter.png" alt="Twitter" border=""></a></td>
                         <td><a href="https://www.instagram.com/cbvolei/" target="_blank"><img src="static/cbv/img/instagram.png" alt="Instagram" border=""></a></td>
@@ -96,7 +91,6 @@ jQuery(function($){
                 <li><a href="experiencia.html">EXPERIÊNCIA</a></li>
                 <li><a href="redeDesconto.html">REDE DE DESCONTO</a></li>
                 <li><a href="censoVolei.html">CENSO DO VÔLEI</a></li>
-                <!--li><a href="minhaConta.html">MINHA CONTA</a></li-->
                 <li><a href="faleConosco.html">FALE CONOSCO</a></li>
               </ul>
             </div></td>
@@ -104,60 +98,53 @@ jQuery(function($){
       </table>
     </nav>
   </div>
-</div>
-<!--fim topo site-->
-
-<div class="conteudoSite">
-  <div class="space"></div>
-  <div class="tituloBold">HISTÓRICO</div>
-  <!--<div class="subTitulo">xxxx Subtítulo xxxx</div>--> 
+  <!--fim topo site-->
   
-  <!--inpunt de pesquisa-->
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-lg-12 backgroundPesquisa">
-        <div class="col-xs-10 col-lg-6"> 
-          <!--<form name="pesquisa" method="post" action="#" onsubmit="">-->
-          <input class="inputPesquisa" type="txt" name="pesquisa" placeholder="O que você está procurando?">
-          <!--</form>--> 
+  <div class="conteudoSite">
+    <div class="space"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12">
+          <div class="col-xs-12 col-lg-4"></div>
+          <div class="col-xs-12 col-lg-5">
+            <form name="cadastro" method="post" action="#" onsubmit="">
+              <div class="caixa">
+                <span class="register-box-title">FALE CONOSCO</span>
+                <div class="form-group alinhaCamposLeft">
+                  <input type="text" class="form-control" name="nome" placeholder="Nome">
+                </div>
+                <div class="form-group alinhaCamposLeft">
+                  <input class="form-control" type="email" name="email" placeholder="E-mail" >
+                </div>
+                <div class="paddingBottom">
+                  <textarea class="form-control" rows="5" id="comment" placeholder="Mensagem"></textarea>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">ENVIAR</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-xs-2 col-lg-1" align="left"> <a href="#"><img src="static/cbv/img/lupa.png" alt="" border=""></a> </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal CADASTRADO COM SUCESSO-->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog"> 
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="tituloLight">Mensagem enviada com sucesso!</p>
+        </div>
       </div>
     </div>
   </div>
   <div class="space"></div>
-  
-  <!--thumbs-->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-xs-12 col-lg-12">
-        <div class="col-xs-12 col-lg-6 paddingBottom">
-          <div class="media"> <a href="#" class="pull-left"> <img src="static/cbv/img/contExclusivo/thumbnail/img1.png" class="media-object" alt=""> </a>
-            <div class="media-body" align="left">
-              <h3 class="media-heading">Título</h3>
-              <h5>O teste consiste em apoiar o corpo em dois pontos afastados de uma distância conhecida e aplicar no ponto médio desta distância uma carga vertical (ver figura). Esta forma de dobramento é também denominada...</h5>
-              <button type="button" class="btn btn-success">"Categoria"</button>
-            </div>
-          </div>
-          <div class="space"></div>
-        </div>
-        <div class="col-xs-12 col-lg-6 paddingBottom">
-          <div class="media"> <a href="#" class="pull-left"> <img src="static/cbv/img/contExclusivo/thumbnail/img1.png" class="media-object" alt=""> </a>
-            <div class="media-body" align="left">
-              <h3 class="media-heading">Título</h3>
-              <h5>descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição </h5>
-              <button type="button" class="btn btn-success">"Categoria"</button>
-            </div>
-          </div>
-          <div class="space"></div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row --> 
-  </div>
-  <div class="space"></div>
-  
   <!-- início footer -->
   <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="static/cbv/img/rodape.png" class="imgFooter" alt="" border=""/></a></div>
 </div>
