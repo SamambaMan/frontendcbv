@@ -108,19 +108,34 @@ jQuery(function($){
           <div class="col-xs-12 col-lg-4"></div>
           <div class="col-xs-12 col-lg-5">
             <form name="cadastro" method="post" action="#" onsubmit="">
-              <div class="caixa">
-                <span class="register-box-title">FALE CONOSCO</span>
+              <div class="caixa"> <span class="register-box-title">FALE CONOSCO</span>
                 <div class="form-group alinhaCamposLeft">
-                  <input type="text" class="form-control" name="nome" placeholder="Nome">
+                  <input type="text" class="form-control" name="nome" placeholder="Nome" required>
                 </div>
+                <!--div para mensagens do Samambaia-->
+                <ul class="errorList">
+                  <li>LISTA DE ERROS</li>
+                </ul>
+                
                 <div class="form-group alinhaCamposLeft">
-                  <input class="form-control" type="email" name="email" placeholder="E-mail" >
+                  <input class="form-control" type="email" name="email" placeholder="E-mail" required>
                 </div>
+                <!--div para mensagens do Samambaia-->
+                <ul class="errorList">
+                  <li>LISTA DE ERROS</li>
+                </ul>
+                
                 <div class="paddingBottom">
-                  <textarea class="form-control" rows="5" id="comment" placeholder="Mensagem"></textarea>
+                  <textarea class="form-control" rows="5" id="comment" placeholder="Mensagem" required></textarea>
                 </div>
+                <!--div para mensagens do Samambaia-->
+                <ul class="errorList">
+                  <li>LISTA DE ERROS</li>
+                </ul>
+                
                 <div>
-                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">ENVIAR</button>
+                  <!--<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">ENVIAR</button>-->
+                  <button type="button" class="btn btn-success">ENVIAR</button>
                 </div>
               </div>
             </form>
@@ -131,9 +146,8 @@ jQuery(function($){
   </div>
   
   <!-- Modal CADASTRADO COM SUCESSO-->
-  <div id="myModal" class="modal fade" role="dialog">
+  <!--<div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog"> 
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -143,8 +157,7 @@ jQuery(function($){
         </div>
       </div>
     </div>
-  </div>
-  <div class="space"></div>
+  </div>-->
   <!-- início footer -->
   <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="static/cbv/img/rodape.png" class="imgFooter" alt="" border=""/></a></div>
 </div>

@@ -30,28 +30,7 @@
 <!-- Custom styles for this template -->
 <link href="static/cbv/dist/css/carousel.css" rel="stylesheet">
 <link href="static/cbv/css/css.css" rel="stylesheet">
-<script src="static/cbv/js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="static/cbv/js/mascaras.js" type="text/javascript"></script>
-<script language="javascript">
-jQuery(function($){
-  $('.tabs-menu ul li a').click(function(){
-    var a = $(this);
-    var active_tab_class = 'active-tab-menu';
-    var the_tab = '.' + a.attr('data-tab');
-    
-    $('.tabs-menu ul li a').removeClass(active_tab_class);
-    a.addClass(active_tab_class);
-    
-    $('.tabs-content .tabs').css({
-      'display' : 'none'
-    });
-    
-    $(the_tab).show();
-    
-    return false;
-  });
-});
-</script>
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -74,8 +53,8 @@ jQuery(function($){
                       <table>
                         <tr> 
                           <!--td><a href="#">NOME DO USUÁRIO</a></td>
-                                                    <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</td>
-                                                    <td><a href="#">SAIR</a></td-->
+                              <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+                              <td><a href="#">SAIR</a></td-->
                           <td><a href="https://pt-br.facebook.com/confederacaobrasileiradevoleibol/" target="_blank"><img src="static/cbv/img/facebook.png" alt="Facebook" border=""></a></td>
                           <td><a href="https://twitter.com/volei?lang=pt" target="_blank"><img src="static/cbv/img/twitter.png" alt="Twitter" border=""></a></td>
                           <td><a href="https://www.instagram.com/cbvolei/" target="_blank"><img src="static/cbv/img/instagram.png" alt="Instagram" border=""></a></td>
@@ -113,7 +92,7 @@ jQuery(function($){
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-xs-12 col-lg-12">
-          <div class="tituloBoldSaibaMais">TÍTULO EXPERIENCIA ENCERRADA</div>
+          <div class="tituloBoldSaibaMais">TÍTULO PESQUISA CENSO VOLEI</div>
         </div>
         <div class="col-xs-12 col-lg-12">
           <div class="tituloLightSaibaMais">Subtítulo</div>
@@ -159,16 +138,38 @@ jQuery(function($){
             <br>
             Todo texto tem que ter alguns aspectos formais, ou seja, tem que ter estrutura, elementos que estabelecem relação entre si. Dentro dos aspectos formais temos a coesão e a coerência, que dão sentido e forma ao texto. "A coesão textual é a relação, a ligação, a conexão entre as palavras, expressões ou frases do texto"[4]. A coerência está relacionada com a compreensão, a interpretação do que se diz ou escreve. Um texto precisa ter sentido, isto é, precisa ter coerência. Embora a coesão não seja condição suficiente para que enunciados se constituam em textos, são os elementos coesivos que lhes dão maior legibilidade e evidenciam as relações entre seus diversos componentes, a coerência depende da coesão. </p>
         </div>
-        <div class="col-xs-12 col-lg-3">
-          <div class="alinhaCamposLeft"> <a href="javascript:window.history.go(-1)"><img src="static/cbv/img/btVoltar.png" alt="" border=""></a> </div>
+        <div class="col-xs-12 col-lg-12 space"> 
+          <!-- the modal button -->
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">PARTICIPAR</button>
         </div>
+        <div class="col-xs-12 col-lg-10 alinhaCamposLeft"> <a href="javascript:window.history.go(-1)"><img src="static/cbv/img/btVoltar.png" alt="" border=""></a> </div>
       </div>
     </div>
     <div class="space"></div>
     
-    <!-- início footer -->
-    <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="static/cbv/img/rodape.png" class="imgFooter" alt="" border=""/></a></div>
+    <!-- Modal COMPLETAR CADASTRO-->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg modalFullScreen"> 
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="tituloLight">COMPLETE SEU CADASTRO</div>
+          </div>
+          <div class="modal-body">
+            <iframe class="embed-responsive-item configIframe" src="formPesquisaCensoVolei.html"></iframe>
+          </div>
+          <div class="modal-footer alinhaCamposLeft">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <!-- início footer -->
+  <div id="footer"><a href="http://2017.cbv.com.br/" target="_blank"><img src="static/cbv/img/rodape.png" class="imgFooter" alt="" border=""/></a></div>
+</div>
 </div>
 
 <!-- Bootstrap core JavaScript
@@ -177,6 +178,7 @@ jQuery(function($){
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 <script>window.jQuery || document.write('<script src="static/cbv/assets/js/vendor/jquery.min.js"><\/script>')</script> 
 <script src="static/cbv/dist/js/bootstrap.min.js"></script> 
+<script src="static/cbv/js/jquery-3.2.1.min.js" type="text/javascript"></script> 
 <!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
 <script src="static/cbv/assets/js/vendor/holder.min.js"></script> 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
