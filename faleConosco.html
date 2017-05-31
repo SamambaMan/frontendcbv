@@ -108,9 +108,10 @@ jQuery(function($){
           <div class="col-xs-12 col-lg-4"></div>
           <div class="col-xs-12 col-lg-5">
             <form name="cadastro" method="post" action="#" onsubmit="">
-              <div class="caixa"> <span class="register-box-title">FALE CONOSCO</span>
+              <div> <span class="register-box-title">FALE CONOSCO</span>
                 <div class="form-group alinhaCamposLeft">
-                  <input type="text" class="form-control" name="nome" placeholder="Nome" required>
+                  <label for="nome">NOME:</label>
+                  <input type="text" class="form-control fundoInput" name="nome" required>
                 </div>
                 <!--div para mensagens do Samambaia-->
                 <ul class="errorList">
@@ -118,24 +119,26 @@ jQuery(function($){
                 </ul>
                 
                 <div class="form-group alinhaCamposLeft">
-                  <input class="form-control" type="email" name="email" placeholder="E-mail" required>
+                  <label for="email">E-mail:</label>
+                  <input class="form-control fundoInput" type="email" name="email" required>
                 </div>
                 <!--div para mensagens do Samambaia-->
                 <ul class="errorList">
                   <li>LISTA DE ERROS</li>
                 </ul>
                 
-                <div class="paddingBottom">
-                  <textarea class="form-control" rows="5" id="comment" placeholder="Mensagem" required></textarea>
+                <div class="form-group alinhaCamposLeft">
+                  <label for="mensagem">Mensagem:</label>
+                  <textarea class="form-control fundoInput" rows="5" id="comment" required></textarea>
                 </div>
                 <!--div para mensagens do Samambaia-->
                 <ul class="errorList">
                   <li>LISTA DE ERROS</li>
                 </ul>
                 
-                <div>
+                <div class="alinhaCamposLeft">
                   <!--<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">ENVIAR</button>-->
-                  <button type="button" class="btn btn-success">ENVIAR</button>
+                  <button type="button" class="btn btn-primary">ENVIAR</button>
                 </div>
               </div>
             </form>

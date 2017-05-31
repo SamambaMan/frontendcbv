@@ -158,6 +158,10 @@
 	width: 257px;
 	height: 200px;
 }
+.fundoInput{
+	background-color: #E4E4E4;
+	border: none;
+}
 /*início torcidômetro abas*/
 * {
   margin: 0;
