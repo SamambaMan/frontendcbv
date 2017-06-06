@@ -343,13 +343,13 @@ a:focus {
 		width:100%;
 		height:32px;
 	}
-.errorList{
+.errorlist{
 	font-family: Nexa Light;
 	letter-spacing:1px;
 	color:#FFF;
 	background-color:#0D2035;
 }
-.errorList ul{
+.errorlist ul{
 	list-style:inside;
 }
 .bordaBox{
