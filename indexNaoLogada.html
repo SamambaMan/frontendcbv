@@ -99,7 +99,7 @@ jQuery(function($){
     </nav>
   </div>
   <!--fim topo site-->
-  
+    <div class="space"></div>
   <div class="conteudoSite">
     <div class="span9">
       <div class="row" style="width:100%;">
@@ -115,27 +115,27 @@ jQuery(function($){
             <div class="carousel-inner" role="listbox">
               <div class="item active"> <img class="first-slide" src="static/cbv/img/banner/banner1.png" alt="First slide">
                 <div class="container">
-                  <div class="carousel-caption2 fundoCinzaCarrossel">
-                    <h1 class="fonteAzul">Título Carrossel</h1>
-                    <p class="fonteCinza">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit</p>
+                  <div class="carousel-captionIndex2">
+                    <h1 class="fonteBrancaLogadaNaoLogada">Título Carrossel</h1>
+                    <p class="fonteBrancaTxt">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit</p>
                     <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
                   </div>
                 </div>
               </div>
               <div class="item"> <img class="second-slide" src="static/cbv/img/banner/banner2.png" alt="Second slide">
                 <div class="container">
-                  <div class="carousel-caption2 fundoCinzaCarrossel">
-                    <h1 class="fonteAzul">Título Carrossel</h1>
-                    <p class="fonteCinza">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit</p>
+                  <div class="carousel-captionIndex2">
+                    <h1 class="fonteBrancaLogadaNaoLogada">Título Carrossel</h1>
+                    <p class="fonteBrancaTxt">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit</p>
                     <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
                   </div>
                 </div>
               </div>
               <div class="item"> <img class="third-slide" src="static/cbv/img/banner/banner3.png" alt="Third slide">
                 <div class="container">
-                  <div class="carousel-caption2 fundoCinzaCarrossel">
-                    <h1 class="fonteAzul">Título Carrossel</h1>
-                    <p class="fonteCinza">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit</p>
+                  <div class="carousel-captionIndex2">
+                    <h1 class="fonteBrancaLogadaNaoLogada">Título Carrossel</h1>
+                    <p class="fonteBrancaTxt">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit</p>
                     <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
                   </div>
                 </div>
@@ -158,41 +158,40 @@ jQuery(function($){
                 <div>
                   <button type="button" class="btn btn-success">OK</button>
                 </div>
-                <br>
-                <div>
+                <div style="padding-top:5px;">
                   <button type="button" class="btn btn-primary">Entrar com Facebook</button>
                 </div>
                 <div>
                   <button type="button" class="btn btn-link">Esqueci minha senha</button>
                 </div>
-                <div style="height:10px;"></div>
-                <div style="background-image: linear-gradient(to right, #1b416c, white, #1b416c); height:2px"></div>
-                <br>
+                <div style="padding:4px 0;"></div>
+                <div style="background-image: linear-gradient(to right, #1b416c, white, #1b416c); height:2px;"></div>
+                <div style="padding:5px 0;"></div>
                 <span class="register-box-title">AINDA NÃO SOU CADASTRADO</span><br>
                 <span class="register-box-txt">Tenha acesso a todos os benefícios e<br>
                 conteúdos exclusivos</span> 
                 
-                <!--div para mensagens do Samambaia-->
+                <!--div para mensagens do Samambaia
                 <ul class="errorList">
                   <li>LISTA DE ERROS</li>
-                </ul>
+                </ul>-->
                 <div>
                   <input class="box1" type="text" name="nome" placeholder="Nome" required>
                 </div>
-                <!--div para mensagens do Samambaia-->
+                <!--div para mensagens do Samambaia
                 <ul class="errorList">
                   <li>LISTA DE ERROS</li>
-                </ul>
+                </ul>-->
                 <div>
                   <input class="box1" type="email" name="email" placeholder="E-mail" required>
                 </div>
-                <!--div para mensagens do Samambaia-->
+                <!--div para mensagens do Samambaia
                 <ul class="errorList">
                   <li>LISTA DE ERROS</li>
-                </ul>
+                </ul>-->
                 <div>
                   <input onKeyDown="Mascara(this,Cpf);" onKeyPress="Mascara(this,Cpf);" onKeyUp="Mascara(this,Cpf);" class="box2" type="text" id="cpf" maxlength="14" name="cpf_passaporte" placeholder="CPF | Passaporte" required>
-                  <select class="box2" name="estado" required>
+                  <select class="box2" name="estado" required style="height:28px;">
                     <option value="estado">Selecione uma UF</option>
                     <option value="ac">Acre</option>
                     <option value="al">Alagoas</option>
@@ -223,19 +222,22 @@ jQuery(function($){
                     <option value="to">Tocantins</option>
                   </select>
                 </div>
-                <!--div para mensagens do Samambaia-->
+                <!--div para mensagens do Samambaia
                 <ul class="errorList">
                   <li>LISTA DE ERROS</li>
-                </ul>
+                </ul>-->
                 <div>
                   <input class="box2" type="password" name="senha" placeholder="Senha" required>
                   <input class="box2" type="password" name="confirmaSenha" placeholder="Confirma senha" required>
                   
-                  <!--div para mensagens do Samambaia-->
-                  <ul class="errorList">
-                    <li>LISTA DE ERROS</li>
-                  </ul>
+                  <!--div para mensagens do Samambaia
+                <ul class="errorList">
+                  <li>LISTA DE ERROS</li>
+                </ul>-->
                   <button type="button" class="btn btn-success">CADASTRAR</button>
+               </div>
+               <div style="padding-top:5px;">
+                  <button type="button" class="btn btn-primary">Cadastrar com Facebook</button>
                 </div>
               </div>
             </form>
@@ -250,7 +252,7 @@ jQuery(function($){
       <div class="row"> 
         <!--beneficio 1-->
         <div class="col-lg-4"> <img class="img-circle" src="static/cbv/img/imgBeneficioEmail.png" alt="" border="0">
-          <p>Receba conteúdo por e-mail</p>
+          <p>Receba programação das transmissões por e-mail</p>
         </div>
         
         <!--beneficio 2-->
@@ -300,20 +302,20 @@ jQuery(function($){
                 <!--modalidade 1-->
                 <div class="col-xs-12 col-lg-5">
                   <img class="img-circle" src="static/cbv/img/bolaQuadra.png" alt="" border="0">
-                  <p>Quadra<br>
-                    57%</p>
+                  <h4>Quadra<br>
+                    57%</h4>
                 </div>
                 <!--modalidade 2-->
                 <div class="col-xs-12 col-lg-2">
                   <img class="img-circle" src="static/cbv/img/bolaPraia.png" alt="" border="0">
-                  <p>Praia<br>
-                    13%</p>
+                  <h4>Praia<br>
+                    13%</h4>
                 </div>
                 <!--modalidade 3-->
                 <div class="col-xs-12 col-lg-5">
                   <img class="img-circle" src="static/cbv/img/bolaAmbos.png" alt="" border="0">
-                  <p>Ambos<br>
-                    20%</p>
+                  <h4>Ambos<br>
+                    20%</h4>
                 </div>
               </div>
             </div>
