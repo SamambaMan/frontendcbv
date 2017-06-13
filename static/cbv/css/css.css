@@ -498,20 +498,20 @@ a:focus {
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:220px 0 0 -15px;
+ margin:200px 0 0 -15px;
 }
- .carousel-indicators {
+ .carousel-indicatorsIndex {
  position: absolute;
  bottom: 10px;
  left: 50%;
  z-index: 15;
  width: 60%;
  padding-left: 0;
- margin-left: -56%;
+ margin-left: -30%;
  text-align: center;
  list-style: none;
 }
-.carousel-indicators li {
+.carousel-indicatorsIndex li {
  display: inline-block;
  width: 10px;
  height: 10px;
@@ -523,7 +523,7 @@ a:focus {
  border: 1px solid #999;
  border-radius: 10px;
 }
-.carousel-indicators .active {
+.carousel-indicatorsIndex .active {
  width: 12px;
  height: 12px;
  margin: 0;
@@ -552,20 +552,20 @@ a:focus {
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:220px 0 0 -15px;
+ margin:200px 0 0 -15px;
 }
- .carousel-indicators {
+ .carousel-indicatorsIndex {
  position: absolute;
  bottom: 10px;
  left: 50%;
  z-index: 15;
  width: 60%;
  padding-left: 0;
- margin-left: -56%;
+ margin-left: -30%;
  text-align: center;
  list-style: none;
 }
-.carousel-indicators li {
+.carousel-indicatorsIndex li {
  display: inline-block;
  width: 10px;
  height: 10px;
@@ -577,7 +577,7 @@ a:focus {
  border: 1px solid #999;
  border-radius: 10px;
 }
-.carousel-indicators .active {
+.carousel-indicatorsIndex .active {
  width: 12px;
  height: 12px;
  margin: 0;
@@ -605,20 +605,20 @@ a:focus {
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:220px 0 0 -15px;
+ margin:200px 0 0 -15px;
 }
- .carousel-indicators {
+ .carousel-indicatorsIndex {
  position: absolute;
  bottom: 10px;
  left: 50%;
  z-index: 15;
  width: 60%;
  padding-left: 0;
- margin-left: -56%;
+ margin-left: -30%;
  text-align: center;
  list-style: none;
 }
-.carousel-indicators li {
+.carousel-indicatorsIndex li {
  display: inline-block;
  width: 10px;
  height: 10px;
@@ -630,7 +630,7 @@ a:focus {
  border: 1px solid #999;
  border-radius: 10px;
 }
-.carousel-indicators .active {
+.carousel-indicatorsIndex .active {
  width: 12px;
  height: 12px;
  margin: 0;
@@ -662,7 +662,7 @@ a:focus {
  text-align: center;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
-.carousel-indicators {
+.carousel-indicatorsIndex {
  position: absolute;
  bottom: 10px;
  left: 50%;
@@ -673,7 +673,7 @@ a:focus {
  text-align: center;
  list-style: none;
 }
-.carousel-indicators li {
+.carousel-indicatorsIndex li {
  display: inline-block;
  width: 10px;
  height: 10px;
@@ -685,7 +685,7 @@ a:focus {
  border: 1px solid #999;
  border-radius: 10px;
 }
-.carousel-indicators .active {
+.carousel-indicatorsIndex .active {
  width: 12px;
  height: 12px;
  margin: 0;
