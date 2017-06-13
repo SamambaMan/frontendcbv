@@ -229,7 +229,7 @@ a:focus {
 }
 .tabs-menu {
 	background: #0C3F6E;
-	width:253px;
+	width:275px;
 	border:#0C3F6E 1px solid;
 	border-radius:5px;
 }
@@ -243,18 +243,20 @@ a:focus {
 	display: block;
 	padding: 10px 20px;
 	text-decoration: none;
-	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 	color: #666;
+	font-size:14px;
 }
 .tabs-menu ul li a:hover {
 	text-decoration:underline;
+	
 }
 .tabs-menu ul li a.active-tab-menu {
 	background: #225388;
 	color: #FFF;
-	/*text-decoration:underline;*/
+	font-size:14px;
+
 }
 .tabs {
 	display: none;
