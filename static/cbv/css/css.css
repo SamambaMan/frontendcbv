@@ -12,8 +12,9 @@
 }
 #topo {
 	background:url(../img/cabecalho.png) no-repeat;
-	width:100%;
+	width:1920px;
 	height:220px;
+	margin:0 auto;
 }
 .alinhaRedeSociais {
 	float:right;
@@ -479,6 +480,14 @@ a:focus {
 	font-weight:bold;
 	color:#fff;
 	text-shadow:none;
+}
+.tamanhoTitBanner{
+	width:600px;
+	height:35px;
+}
+.tamanhoTxtBanner{
+	width:600px;
+	height:35px;
 }
  @media (min-width: 1200px) {
 .carousel-captionIndex {
