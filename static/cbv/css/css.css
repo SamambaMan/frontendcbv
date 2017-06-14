@@ -81,10 +81,14 @@
 	float:left;
 }
 .tituloLightPequeno {
-	font-family:Nexa Light;
-	background-image: linear-gradient(to right, #F5F5F5, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #F5F5F5);
+	font-family:MyriadPro-Cond;
+	font-size:22px;
+	/*background-image: linear-gradient(to right, #F5F5F5, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #1E4370, #F5F5F5);*/
 	background-color:#1E4370;
 	color:#fff;
+	width:170px;
+	margin:0 0 0 20px;
+	z-index:30;
 }
 .classificacaoTorcidometro {
 	font-family:Nexa Bold;
