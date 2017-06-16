@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	/*overflow-x: hidden; */
-}
-
 #corpoSite {
 	width:100%;
 	height:100%;
@@ -15,34 +11,6 @@ body {
 	width:80%;
 	margin:0 auto;
 }
-
-
-/*@media (min-width: 1025px) {
-#topo {
-	background:url(../img/cabecalho.png) no-repeat;
-	width:1350px;
-	width:100%;
-	height:220px;
-	margin:0 auto;
-}
-}
-@media (max-width: 767px) {
-#topo {
-	background:url(../img/cabecalho.png) no-repeat;
-	width:1920px;
-	width:100%;
-	height:220px;
-}
-}
-@media (max-width: 480px) {
-#topo {
-	background:url(../img/cabecalho.png) no-repeat;
-	width:1920px;
-	width:100%;
-	height:220px;
-}
-}*/
-
 
 #topo {
 	height: 220px;
@@ -64,9 +32,23 @@ body {
 }
 
 
+.boxuser { float: right; }
+.loginuser,
+.menuRedeSociais { display: inline-block; }
 
+.loginuser,
+.loginuser a { color: #fff; }
+
+.loginuser a {
+	margin-left: 5px;
+	padding-left: 5px;
+	border-left: solid 1px #ffffff;
+}
+
+.loginuser { text-transform: uppercase;	}
+
+/* Menu social */
 .menuRedeSociais {
-	
 	list-style:none;
 	text-align: right;
 }
@@ -74,7 +56,6 @@ body {
 .menuRedeSociais li { 
 	display: inline-block;
 }
-
 
 .menuRedeSociais a {
 	color:#FFF;
@@ -84,38 +65,10 @@ body {
 	color:#FFF;
 }
 
+/* Menu site */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.alinhaRedeSociais {
-	float:right;
-	margin-right:16px;
-}
-
-/*#menuSite {
-	float:right;
-	width:100%;
-}*/
 .menu {
-	/*display: inline;*/
+	clear: both;
 	list-style:none;
 	color:#FFF;
 	font-family:MyriadPro-Cond;
@@ -125,7 +78,6 @@ body {
 
 .menu li {
 	display: inline-block;
-	
 	margin-left: 10px;
 }
 
@@ -138,9 +90,63 @@ body {
 	font-family:MyriadPro-Cond;
 	text-decoration:underline;
 }
-/*.blocoTexto{
-	font-family:MyriadPro-Cond;
-}*/
+
+/* Menu mobile */
+
+.menu-mobile { text-align: right; }
+
+.menu-mobile .btn.collapsed { 
+	background-color: transparent;
+	color: #ffffff;
+	border: solid 1px white;
+} 
+
+.menu-mobile .btn { 
+	color: #232f54;
+	background-color: #ffffff;
+	border-color: transparent;
+}
+
+@media (max-width:767px) {
+	.menu-mobile .btn { 
+		margin: 47px 15px 45px 0;
+	}
+}
+
+@media (max-width:400px) {
+	.menu-mobile .btn { 
+		margin: 130px 15px 20px 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.menu-mobile .btn { 
+		margin: 47px 15px 45px 0;
+	 }
+}
+
+.menu-mobile .btn i { font-size: 25px; } 
+
+.menu-mobile .well {
+	background: #232f54;
+	border-color: transparent;
+	border-top: solid 1px #000;
+}
+
+.menu-mobile ul li {
+	display: block;
+	margin: 15px 0;
+	text-align: center;
+}
+
+.menu-mobile ul li:first-child { margin-top: 0; }
+
+
+.alinhaRedeSociais {
+	float:right;
+	margin-right:16px;
+}
+
 .tituloBold {
 	font-family:Nexa Bold;
 	font-size:30px;
