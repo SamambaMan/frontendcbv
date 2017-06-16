@@ -262,6 +262,9 @@
 .alturaDescricaoDesconto {
 	height:80px;
 }
+.alturaTituloDesconto {
+	height:50px;
+}
 .alturaDescricaoContExclusivo {
 	height:130px;
 }
