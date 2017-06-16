@@ -459,7 +459,7 @@ a:focus {
 .caixa {
 	margin-top: 3%;
 	background: #1b416c;
-	padding: 8px 8px 8px 8px;
+	padding: 8px 8px 24px 8px;
 	border-radius: 5px;
 }
 .box1 {
@@ -577,7 +577,7 @@ a:focus {
 @media (min-width: 1025px) {
  #myCarouselNaoLogada {
  float:left;
- width:60%;
+ width:63%;
   margin:0 0 0 15px;
 }
 }
