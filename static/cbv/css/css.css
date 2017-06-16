@@ -627,6 +627,7 @@ a:focus {
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration:none;
 	padding-top:10px;
+	letter-spacing:1px;
 }
 .fonteBrancaTxt a {
 	font-family:MyriadPro-Cond;
