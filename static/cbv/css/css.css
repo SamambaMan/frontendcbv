@@ -304,9 +304,6 @@
 	font-family:MyriadPro-Cond;
 	font-size:20px;
 }
-.linksBanner{
-	
-}
 /*início torcidômetro abas*/
 * {
 	margin: 0;
@@ -597,14 +594,14 @@ a:focus {
 	color:#fff;
 	font-family:MyriadPro-Cond;
 	font-weight:bold;
-	font-size:2.5em;
+	font-size:33px;
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 .fonteBrancaLogadaNaoLogada a{
 	color:#fff;
 	font-family:MyriadPro-Cond;
 	font-weight:bold;
-	font-size:2.5em;
+	font-size:33px;
 	text-shadow: black 0.1em 0.1em 0.2em
 	text-decoration:none;
 }
@@ -612,17 +609,36 @@ a:focus {
 	color:#fff;
 	font-family:MyriadPro-Cond;
 	font-weight:bold;
-	font-size:2.5em;
+	font-size:33px;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration:none;
 }
 .fonteBrancaTxt {
 	font-family:MyriadPro-Cond;
-	font-size:1.5em;
+	font-size:20px;
 	font-weight:bold;
 	color:#fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration:none;
+	padding-top:10px;
+}
+.fonteBrancaTxt a {
+	font-family:MyriadPro-Cond;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration:none;
+	padding-top:10px;
+}
+.fonteBrancaTxt a:hover{
+	font-family:MyriadPro-Cond;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration:none;
+	padding-top:10px;
 }
 .tamanhoTitBanner{
 	width:600px;
