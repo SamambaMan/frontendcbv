@@ -8,7 +8,7 @@
 	overflow: hidden; 
 }
 #conteudoSite {
-	width:80%;
+	width:100%;
 	margin:0 auto;
 }
 
@@ -255,7 +255,7 @@
 	width:100%;
 }
 .alturaImgSelo {
-	height:54px;
+	height:60px;
 }
 .alturaBtParticipe {
 	height:46px;
@@ -272,6 +272,10 @@
 .fonteMyriad{
 	font-family: MyriadPro-Cond;
 }
+.fonteMyriadTexto{
+	font-family: MyriadPro-Cond;
+	font-size:17px;
+}
 .maximoTamanho {
 	max-width:100%;
 }
@@ -284,7 +288,7 @@
 	height: 200px;
 }
 .tamanhoFixo2 {
-	width: 257px;
+	width: 230px;
 	height: 200px;
 }
 .tamanhoFixo3 {
@@ -525,8 +529,8 @@ a:focus {
 }
 /*fim importacao fontes*/
 #footer {
-	width:100%;
-/*	margin:0 0 -40px 0;*/
+	max-width:100%;
+	/*margin:0 0 -40px 0;*/
 }
 .imgFooter {
 	max-width:100%;
@@ -655,45 +659,37 @@ a:focus {
 	width:600px;
 	height:35px;
 }
-/*.fundoBannerTransparente{
-	color:#FFF !important;
-	opacity: 0.3;
-	background: linear-gradient(transparent, white, white, white, white, white, transparent);
-	float:left;
-	width:936px;
-	height:100px;
-	padding:0 0 0 10px;
-	margin:-15px 0 0 -10px;
-}*/
 .fundoBannerTransparente{
 	background-image:url(../img/fundoTransparenteCarrossel.png);
-	width:946px;
-	height:90px;
+	/*width:1085px;*/
+	width:100%;
+	height:120px;
 	padding:0 0 0 30px;
-	margin:-5px 0 0 -20px;
+	margin:-5px 0;
 }
  @media (min-width: 1200px) {
 .carousel-captionIndex {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+/* padding: 170px 10px 0 10px;*/
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
  .carousel-captionIndex2 {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 /*.carousel-indicatorsIndex {
  position: absolute;
@@ -729,25 +725,25 @@ a:focus {
 .carousel-captionIndex {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  padding-bottom: 20px;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 .carousel-captionIndex2 {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 /*.carousel-indicatorsIndex {
  position: absolute;
@@ -783,24 +779,24 @@ a:focus {
 .carousel-captionIndex {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 .carousel-captionIndex2 {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 /*.carousel-indicatorsIndex {
  position: absolute;
@@ -836,24 +832,24 @@ a:focus {
 .carousel-captionIndex {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 .carousel-captionIndex2 {
  position: absolute;
  z-index: 10;
- padding: 170px 10px 0 10px;
+ padding: 170px 0;
  color: #fff;
  text-align: left;
  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
  height:20%;
  width:100%;
- margin:200px 0 0 -15px;
+ margin:200px 0;
 }
 /*.carousel-indicatorsIndex {
  position: absolute;
