@@ -13,7 +13,8 @@
 }
 
 #topo {
-	height: 220px;
+	height: 16vw;
+	max-height: 412px;
 	background:url(../img/cabecalho.png) no-repeat;
 	background-position: -130px 0;
 }
