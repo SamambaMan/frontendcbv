@@ -227,18 +227,17 @@
 	max-width:100%;
 }
 .backgroundPesquisa {
-	background:#CCC;
-	border-radius:10px;
+	background:#E0E0E0;
+	/*border-radius:10px;*/
 }
 .inputPesquisa {
-	background:#CCC;
+	background:#E0E0E0;
 	border:none;
 	max-width:100%;
 	width:100%;
-	/*border:1px #FFF solid;
-	border-radius:10px;*/
 	margin:5px 0;
-	font-size:16px;
+	font-size:20px;
+	font-family:MyriadPro-Cond;
 }
 .paddingBottom {
 	padding-bottom:30px;
@@ -291,6 +290,10 @@
 .fonteMyriad{
 	font-family: MyriadPro-Cond;
 }
+.fonteMyriadGr{
+	font-family: MyriadPro-Cond;
+	font-size:20px;
+}
 .fonteMyriadBold{
 	font-family: MyriadPro-Cond;
 	font-weight:bold;
@@ -335,13 +338,14 @@
 	padding:0 0 10px 10px;
 }
 .btMaior{
-	padding:15px;
+	padding:5px 15px 5px 15px;
 }
 .corLink{
 	color: #666;
 	text-decoration:underline;
 	font-family:MyriadPro-Cond;
 	font-size:20px;
+	margin-left:-10px;
 }
 /*início torcidômetro abas*/
 * {
@@ -380,6 +384,7 @@ a:focus {
 	width:245px;
 	border:#0C3F6E 1px solid;
 	border-radius:5px;
+	font-family:MyriadPro-Cond;
 }
 .tabs-menu ul {
 	list-style: none;
@@ -395,7 +400,7 @@ a:focus {
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 	color: #666;
-	font-size:14px;
+	font-size:20px;
 }
 .tabs-menu ul li a:hover {
 	text-decoration:underline;
@@ -403,7 +408,7 @@ a:focus {
 .tabs-menu ul li a.active-tab-menu {
 	background: #225388;
 	color: #FFF;
-	font-size:14px;
+	font-size:20px;
 }
 .tabs {
 	display: none;
@@ -631,7 +636,8 @@ a:focus {
 /*customização carrossel - index logada e não logada- fundo cinza lateral*/
 .fonteBrancaLogadaNaoLogada {
 	color:#fff !important;
-	font-family:MyriadPro-Cond;
+	/*font-family:MyriadPro-Cond;*/
+	font-family:Nexa Bold;
 	/*font-weight:bold;*/
 	font-size:33px;
 	text-shadow: black 0.1em 0.1em 0.2em;
@@ -639,7 +645,8 @@ a:focus {
 }
 .fonteBrancaLogadaNaoLogada a{
 	color:#fff !important;
-	font-family:MyriadPro-Cond;
+	/*font-family:MyriadPro-Cond;*/
+	font-family:Nexa Bold;
 	/*font-weight:bold;*/
 	font-size:33px;
 	text-shadow: black 0.1em 0.1em 0.2em
@@ -647,7 +654,8 @@ a:focus {
 }
 .fonteBrancaLogadaNaoLogada a:hover{
 	color:#fff !important;
-	font-family:MyriadPro-Cond;
+	/*font-family:MyriadPro-Cond;*/
+	font-family:Nexa Bold;
 	/*font-weight:bold;*/
 	font-size:33px;
 	text-shadow: black 0.1em 0.1em 0.2em;
@@ -694,7 +702,7 @@ a:focus {
 	width:100%;
 	height:150px;
 	padding:0 0 0 30px;
-	margin:-45px 0;
+	margin:-50px 0;
 }
  @media (min-width: 1200px) {
 .carousel-captionIndex {
@@ -914,7 +922,8 @@ a:focus {
 /*customização carrossel fundo cinza lateral*/
 .fonteAzul {
 	color:#1E4370;
-	font-family:MyriadPro-Cond;
+	/*font-family:MyriadPro-Cond;*/
+	font-family:Nexa Bold;
 	/*font-weight:bold;*/
 	font-size:2.5em;
 	text-shadow:none;
