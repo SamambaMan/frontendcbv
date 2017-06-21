@@ -276,6 +276,11 @@
 	font-family: MyriadPro-Cond;
 	font-size:17px;
 }
+.fonteMyriadMsgSucesso{
+	font-family: MyriadPro-Cond;
+	font-size:30px;
+	color:#1E4370;
+}
 .maximoTamanho {
 	max-width:100%;
 }
