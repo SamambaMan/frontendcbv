@@ -670,6 +670,7 @@ a:focus {
 	text-decoration:none;
 	padding-top:30px;
 	letter-spacing:1px;
+	line-height:100%;
 }
 .fonteBrancaTxt a {
 	font-family:MyriadPro-Cond;
@@ -678,7 +679,7 @@ a:focus {
 	color:#fff !important;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration:none;
-	padding-top:10px;
+	line-height:100%;
 }
 .fonteBrancaTxt a:hover{
 	font-family:MyriadPro-Cond;
@@ -687,14 +688,43 @@ a:focus {
 	color:#fff !important;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration:none;
-	padding-top:10px;
+	line-height:100%;
+}
+.fonteBrancaTxtNaoLogada {
+	font-family:MyriadPro-Cond;
+	font-size:20px;
+	/*font-weight:bold;*/
+	color:#fff !important;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration:none;
+	padding-top:48px;
+	letter-spacing:1px;
+	line-height:100%;
+}
+.fonteBrancaTxtNaoLogada a {
+	font-family:MyriadPro-Cond;
+	font-size:20px;
+	/*font-weight:bold;*/
+	color:#fff !important;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration:none;
+	line-height:100%;
+}
+.fonteBrancaTxtNaoLogada a:hover{
+	font-family:MyriadPro-Cond;
+	font-size:20px;
+	/*font-weight:bold;*/
+	color:#fff !important;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration:none;
+	line-height:100%;
 }
 .tamanhoTitBanner{
-	width:600px;
+	width:100%;
 	height:35px;
 }
 .tamanhoTxtBanner{
-	width:600px;
+	width:100%;
 	height:35px;
 }
 .fundoBannerTransparente{
