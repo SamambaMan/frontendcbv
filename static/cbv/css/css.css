@@ -754,8 +754,8 @@ a:focus {
 }
 
 .fundoBannerTransparente{
-	/*background-color: rgba(0, 0, 0, .15);*/
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, .15);
+	/*background-color: rgba(0, 0, 0, .8);*/
 	position: relative;
 	width:100%;
 	height:170px;
@@ -853,7 +853,7 @@ a:focus {
 		color:#fff !important;
 		text-shadow: black 0.1em 0.1em 0.2em;
 		text-decoration:none;
-		padding-top:48px;
+		padding-top:35px;
 		letter-spacing:1px;
 		line-height:100%;
 	}
