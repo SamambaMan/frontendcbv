@@ -756,7 +756,7 @@ a:focus {
 
 .fundoBannerTransparente{
 	/*background-image:url(../img/fundoTransparenteCarrossel.png);*/
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, .3);
 	position: relative;
 	width:100%;
 	height:170px;
