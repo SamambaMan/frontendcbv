@@ -5,7 +5,7 @@
 	width:100%;
 	height:100%;
 	text-align:center;
-	overflow: hidden; 
+	overflow: hidden;
 }
 #conteudoSite {
 	width:100%;
@@ -54,7 +54,7 @@
 	text-align: right;
 }
 
-.menuRedeSociais li { 
+.menuRedeSociais li {
 	display: inline-block;
 }
 
@@ -96,37 +96,37 @@
 
 .menu-mobile { text-align: right; }
 
-.menu-mobile .btn.collapsed { 
+.menu-mobile .btn.collapsed {
 	background-color: transparent;
 	color: #ffffff;
 	border: solid 1px white;
-} 
+}
 
-.menu-mobile .btn { 
+.menu-mobile .btn {
 	color: #232f54;
 	background-color: #ffffff;
 	border-color: transparent;
 }
 
 @media (max-width:767px) {
-	.menu-mobile .btn { 
+	.menu-mobile .btn {
 		margin: 47px 15px 45px 0;
 	}
 }
 
 @media (max-width:400px) {
-	.menu-mobile .btn { 
+	.menu-mobile .btn {
 		margin: 130px 15px 20px 0;
 	}
 }
 
 @media (min-width: 768px) {
-	.menu-mobile .btn { 
+	.menu-mobile .btn {
 		margin: 47px 15px 45px 0;
 	 }
 }
 
-.menu-mobile .btn i { font-size: 25px; } 
+.menu-mobile .btn i { font-size: 25px; }
 
 .menu-mobile .well {
 	background: #232f54;
@@ -662,6 +662,8 @@ a:focus {
  width:100%;
  margin:200px 0;
 }
+
+/* REMOVER MEDIA QUERY DESNECESSARIA
 .fundoBannerTransparente{
 	background-image:url(../img/fundoTransparenteCarrossel.png);
 	width:100%;
@@ -673,6 +675,7 @@ a:focus {
 	width:100%;
 	height:35px;
 }
+*/
 .fonteBrancaTxt {
 	font-family:MyriadPro-Cond;
 	font-size:20px;
@@ -750,6 +753,25 @@ a:focus {
 	line-height:100%;
 }
 }
+
+.fundoBannerTransparente{
+	/*background-image:url(../img/fundoTransparenteCarrossel.png);*/
+	background-color: rgba(0, 0, 0, .6);
+	position: relative;
+	width:100%;
+	height:170px;
+	padding:0 0 0 30px;
+	margin:-50px 0;
+}
+
+.tamanhoTxtBanner,
+.tamanhoTitBanner {
+	position: relative;
+	z-index: 2;
+}
+
+
+
 @media (min-width: 1024px) {
 .carousel-captionIndex {
  position: absolute;
@@ -774,14 +796,33 @@ a:focus {
  width:100%;
  margin:200px 0;
 }
+
+/* REMOVER ISSO AQUI SE DER CERTO POR CONTA DE MEDIA DESENCESSARIA
 .fundoBannerTransparente{
 	background-image:url(../img/fundoTransparenteCarrossel.png);
+	position: relative;
 	width:100%;
 	height:170px;
 	padding:0 0 0 30px;
 	margin:-50px 0;
 }
-.tamanhoTxtBanner{
+
+.fundoBannerTransparente:after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+}
+*/
+
+
+
+
+.tamanhoTxtBanner {
 	width:100%;
 	height:35px;
 }
@@ -885,13 +926,13 @@ a:focus {
  width:100%;
  margin:200px 0;
 }
-.fundoBannerTransparente{
+/*.fundoBannerTransparente{
 	background-image:url(../img/fundoTransparenteCarrossel.png);
 	width:100%;
 	height:170px;
 	padding:0 0 0 30px;
 	margin:-50px 0;
-}
+}*/
 .tamanhoTxtBanner{
 	width:100%;
 	height:35px;
@@ -1118,7 +1159,7 @@ a:focus {
 		height:100%;
 		width:35%;
 	}
-	
+
 	.carousel-indicators {
 		position: absolute;
 		bottom: 10px;
@@ -1265,7 +1306,7 @@ a:focus {
 		width:35%;
 		left: 0;
 	}
-	
+
 	.carousel-indicators {
 		position: absolute;
 		bottom: 10px;
@@ -1349,7 +1390,7 @@ a:focus {
 		text-align: center;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 	}
-	
+
 	.carousel-indicators {
 		position: absolute;
 		bottom: 10px;
