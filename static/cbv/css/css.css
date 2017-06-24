@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color: #243354;
+	background-color: #153054;
 }
 
 .bgcolor-branco { background-color: #fff; }
@@ -576,7 +576,24 @@ a:focus {
 }*/
 
 #footer {
-	background: url('../img/rodape.png') no-repeat;
+	position: relative;
+}
+
+#footer:before {
+	content: '';
+	position: absolute;
+	top: -170px;
+	left: 0;
+	width: 100%;
+	height: 225px;
+	background: url('../img/rodape-borda.png') no-repeat center;
+}
+.logo-rodape {
+	display: block;
+	margin: 20px auto;
+	width: 314px;
+	height: 67px;
+	background: url('../img/logoVoleiBrasil.png') no-repeat;
 }
 
 
