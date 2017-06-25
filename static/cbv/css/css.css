@@ -1501,3 +1501,8 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 .form-title-msgshow {
 	font-family: 'Nexa Bold';
 }
+
+.btn-maismateria {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
