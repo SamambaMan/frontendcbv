@@ -1519,7 +1519,8 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 	margin-bottom: 0;
 }
 
-.carousel-inner-cbv .item{
+.carousel-inner-cbv .item,
+.carousel-inner-exclusive .item {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1580,4 +1581,45 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 
 }
 
+/* carrousel conteudo exclusivo */
+
+.carousel-exclusive {
+	margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+	.carousel-exclusive {
+		margin-bottom: 60px;
+	}
+}
+
+@media (min-width: 992px){
+	.carousel-exclusive .carousel-indicators {
+		bottom: -50px;
+	}
+}
+
+
+.carousel-inner-exclusive .item {
+
+}
+
+.carousel-inner-exclusive .carousel-caption {
+	min-width: 180px;
+	background-color: rgba(0, 0, 0, .6)
+}
+
+.carousel-inner-exclusive .titulo {
+	color: #fff;
+    font-family: Nexa Bold;
+    font-size: 2.5em;
+    text-shadow: none;
+}
+
+.carousel-inner-exclusive .texto {
+    color: #fff;
+	font-family: MyriadPro-Cond;
+    font-size: 1.5em;
+    text-shadow: none;
+}
 
