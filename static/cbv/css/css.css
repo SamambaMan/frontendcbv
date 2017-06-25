@@ -41,12 +41,15 @@
 }
 
 body {
-	padding-bottom: 100px;
 	background-color: #153054;
 	font-family: 'MyriadPro-Cond';
 }
 
-.bgcolor-branco { background-color: #fff; }
+.bgcolor-branco {
+
+	padding-bottom: 100px;
+	background-color: #fff;
+}
 
 
 #corpoSite {
