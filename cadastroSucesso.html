@@ -38,16 +38,16 @@ jQuery(function($){
     var a = $(this);
     var active_tab_class = 'active-tab-menu';
     var the_tab = '.' + a.attr('data-tab');
-    
+
     $('.tabs-menu ul li a').removeClass(active_tab_class);
     a.addClass(active_tab_class);
-    
+
     $('.tabs-content .tabs').css({
       'display' : 'none'
     });
-    
+
     $(the_tab).show();
-    
+
     return false;
   });
 });
@@ -56,8 +56,8 @@ jQuery(function($){
 <!-- NAVBAR
 ================================================== -->
 <body>
-<div id="corpoSite"> 
-  
+<div id="corpoSite">
+
   <!--início topo site-->
   <div id="topo"></div>
   <div id="menuSite">
@@ -65,14 +65,14 @@ jQuery(function($){
       <nav class="navbar-right navbar-inverse">
         <table width="100%">
           <tr>
-            <td><div class="alinhaRedeSociais"> 
+            <td><div class="alinhaRedeSociais">
                 <!--  botão no menu  -->
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                   <ul class="menuRedeSociais navbar-nav">
                     <li>
                       <table>
-                        <tr> 
+                        <tr>
                           <!--td><a href="#">NOME DO USUÁRIO</a></td>
                                                     <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</td>
                                                     <td><a href="#">SAIR</a></td-->
@@ -106,7 +106,7 @@ jQuery(function($){
     </div>
   </div>
   <!--fim topo site-->
-  
+
   <div class="conteudoSite">
     <div class="space"></div>
     <div class="container">
@@ -120,14 +120,14 @@ jQuery(function($){
 </div>
 
 <!-- Bootstrap core JavaScript
-        ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script>window.jQuery || document.write('<script src="static/cbv/assets/js/vendor/jquery.min.js"><\/script>')</script> 
-<script src="static/cbv/dist/js/bootstrap.min.js"></script> 
-<!-- Just to make our placeholder images work. Don't actually copy the next line! --> 
-<script src="static/cbv/assets/js/vendor/holder.min.js"></script> 
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
+        ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="static/cbv/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="static/cbv/dist/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="static/cbv/assets/js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="static/cbv/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
