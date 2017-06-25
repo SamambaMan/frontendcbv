@@ -1511,3 +1511,11 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 	padding-left: 20px;
 	text-align: left;
 }
+
+/*carrousel */
+
+.carousel-inner-cbv .item{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
