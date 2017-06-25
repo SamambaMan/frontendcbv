@@ -677,7 +677,7 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 }
 #myCarousel{
 	width:100%;
-	margin:0 auto;
+	/*margin:0 auto;*/
 }
 
 @media (min-width: 1025px) {
@@ -1514,18 +1514,51 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 
 /*carrousel cbv */
 
+.carousel-cbv {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .carousel-inner-cbv .item{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
+.carousel-inner-cbv {
+	height: 435px;
+}
+
+@media (min-width: 768px) {
+	.carousel-cbv {
+		margin-bottom: 30px;
+		height: 480px;
+	}
+
+	.carousel-inner-cbv {
+		height: 412px;
+	}
+
+}
+
+
 @media (min-width: 1025px) {
+
+	.carousel-cbv { height: 470px; }
+	.carousel-inner-cbv {
+		height: 465px;
+	}
+
+	.carousel-cbv  .carousel-indicators {
+		bottom: -37px;
+	}
+
 	.carousel-inner-cbv .fundoBannerTransparente,
 	.carousel-inner-cbv .tamanhoTitBanner,
 	.carousel-inner-cbv .tamanhoTxtBanner {
 		height: auto;
 	}
+
 	.carousel-inner-cbv .carousel-captionIndex,
 	.carousel-inner-cbv .carousel-captionIndex2 {
 		bottom: 0;
