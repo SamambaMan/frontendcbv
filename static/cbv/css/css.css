@@ -1506,3 +1506,8 @@ REMOVER SE FUNCIONAR O ARQUIVO FONTS
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.erros-forms {
+	padding-left: 20px;
+	text-align: left;
+}
