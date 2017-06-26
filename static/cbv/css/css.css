@@ -1656,6 +1656,14 @@ a:focus {
 
 }
 
+@media (min-width: 1200px) {
+
+	.media.media-cupom > .pull-left {
+    	padding-right: 0px;
+	}
+}
+
+
 .fontHelvitica {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
