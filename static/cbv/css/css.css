@@ -335,7 +335,7 @@ body {
 }
 .alturaDescricaoContExclusivo {
 	width:70%;
-	height: 90px;
+	height: 90	px;
 }
 .fonteMyriad{
 	font-family: MyriadPro-Cond;
@@ -450,8 +450,11 @@ a:focus {
 	color: #666;
 	font-size:20px;
 }
+
 .tabs-menu ul li a:hover {
-	text-decoration:underline;
+	text-decoration:none;
+	background: #407BBD;
+	color:#ffffff;
 }
 .tabs-menu ul li a.active-tab-menu {
 	background: #225388;
