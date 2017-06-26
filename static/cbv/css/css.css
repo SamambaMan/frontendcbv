@@ -340,21 +340,33 @@ a:active {
 .alturaDescricaoDesconto {
 	height:80px;
 	width:70%;
-	text-align:justify;
+	text-align:left;
 }
 .alturaDescricaoCensoVolei{
 	height:80px;
 	width:87%;
-	text-align:justify;
+	text-align:left;
 }
+
+@media (max-width:480px) {
+	.alturaDescricaoCensoVolei { text-align: center; }
+}
+
 .alturaDescricaoRedeDeDesconto {
 	height:80px;
-	text-align:justify;
+	text-align:left;
 }
+
 .alturaDescricaoExperiencia {
 	height:80px;
-	text-align:justify;
+	text-align:left;
 }
+
+@media(max-width:480px){
+	.alturaDescricaoExperiencia { text-align:center; }
+}
+
+
 .alturaTituloDesconto {
 	height:50px;
 	padding-top:10px;
