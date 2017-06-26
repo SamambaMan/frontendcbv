@@ -45,6 +45,8 @@ body {
 	font-family: 'MyriadPro-Cond';
 }
 
+label { font-weight: normal; }
+
 a:hover {
 	text-decoration: none !important;
 }
