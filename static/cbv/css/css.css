@@ -1641,11 +1641,6 @@ a:focus {
 	}
 }
 
-
-.carousel-inner-exclusive .item {
-
-}
-
 .carousel-inner-exclusive .carousel-caption {
 	min-width: 180px;
 	background-color: rgba(0, 0, 0, .6)
@@ -1666,6 +1661,29 @@ a:focus {
 	font-family: MyriadPro-Cond;
     font-size: 1.5em;
 }
+
+@media (max-width: 767px){
+
+	.carousel-control {
+		color: #fff;
+		opacity: .85;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+	}
+
+	.carousel-control .glyphicon {
+		font-size: 50px;
+	}
+
+	.carousel-control.left {
+		left: 10vw;
+	}
+
+	.carousel-control.right {
+		right: 12vw;
+	}
+}
+
+
 
 /* media body cbv */
 
@@ -1728,3 +1746,4 @@ a:focus {
 .fontHelvitica {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
+
