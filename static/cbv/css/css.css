@@ -670,12 +670,21 @@ a:focus {
 	height: 225px;
 	background: url('../img/rodape-borda.png') no-repeat center;
 }
+
 .logo-rodape {
 	display: block;
 	margin: 20px auto;
 	width: 314px;
 	height: 67px;
 	background: url('../img/logoVoleiBrasil.png') no-repeat;
+}
+
+
+@media (max-width: 767px){
+	.logo-rodape { 
+		width: 282px;
+		background-size: contain;
+	}
 }
 
 .imgFooter {
@@ -871,6 +880,25 @@ a:focus {
 	position: relative;
 	z-index: 2;
 }
+
+
+@media (min-width: 768px){
+	
+	.tamanhoTitBanner {
+		width: 95%;
+	}
+	.tamanhoTitBanner .fonteBrancaLogadaNaoLogada a { font-size: 28px; }
+}
+
+@media (min-width: 1024px){
+	
+	.tamanhoTitBanner {
+		width: 100%;
+	}
+	.tamanhoTitBanner .fonteBrancaLogadaNaoLogada a { font-size: 33px; }
+}
+
+
 
 @media (min-width: 1024px) {
 	.carousel-captionIndex {
@@ -1746,5 +1774,12 @@ a:focus {
 
 .fontHelvitica {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+@media (max-width: 1024px){
+	.img-destaqmateria {
+		width: auto;
+		height: auto;
+	}
 }
 
