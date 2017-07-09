@@ -218,7 +218,7 @@ a:active {
 .menu-mobile .menuRedeSociais li {
 	display: inline-block;
 	margin-right: 10px;
-} 
+}
 
 
 
@@ -523,7 +523,7 @@ a:focus {
 }
 .backgroundPrograma {
 	text-align:left;
-	background:url(../img/bannerPrograma/banner1Programa.png);
+	background:url(../img/bannerPrograma/Estatica_Programa.jpg);
 	padding:40px;
 	color:#FFF;
 }
@@ -681,7 +681,7 @@ a:focus {
 
 
 @media (max-width: 767px){
-	.logo-rodape { 
+	.logo-rodape {
 		width: 282px;
 		background-size: contain;
 	}
@@ -883,7 +883,7 @@ a:focus {
 
 
 @media (min-width: 768px){
-	
+
 	.tamanhoTitBanner {
 		width: 95%;
 	}
@@ -891,7 +891,7 @@ a:focus {
 }
 
 @media (min-width: 1024px){
-	
+
 	.tamanhoTitBanner {
 		width: 100%;
 	}
